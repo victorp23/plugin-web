@@ -1,0 +1,17 @@
+{
+  "manifest_version": 3,
+  "name": "Vulnerability Analyzer",
+  "short_name": "Analyzer",
+  "version": "1.0.0",
+  "description": "Analyze website vulnerabilities",
+  "permissions": ["activeTab", "scripting", "tabs"],
+  "action": {
+    "default_popup": "index.html",
+    "default_icon": {
+      "16": "icons/icon16.png"
+    }
+  },
+  "background": {
+    "service_worker": "background.js"
+  }
+}

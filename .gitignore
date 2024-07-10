@@ -1,0 +1,5 @@
+plugin-backend/app/vulnerability_model.pkl
+
+plugin-backend/instance/
+
+plugin-frontend/node_modules/
